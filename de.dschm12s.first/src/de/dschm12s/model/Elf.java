@@ -1,4 +1,4 @@
-package de.dschm12s.se1Patterns;
+package de.dschm12s.model;
 
 public class Elf extends Character{
 

@@ -1,4 +1,6 @@
-package de.dschm12s.se1Patterns;
+package de.dschm12s.model;
+
+import de.dschm12s.utility.WrongObjectException;
 
 public class CharFactory {
 
