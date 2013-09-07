@@ -2,9 +2,14 @@ package de.dschm12s.data;
 
 public class DataManager {
 
-	DataPersistenceStrategy dataPersistenceStrategy;
+	private DataPersistenceStrategy dataPersistenceStrategy;
+	
+	
 	
 	public DataManager(DataPersistenceStrategy dataPersistenceStrategy){
-		
+		this.dataPersistenceStrategy = dataPersistenceStrategy;
 	}
+public DataPersistenceStrategy getDataPersistenceStrategy(){
+	return this.dataPersistenceStrategy;
+}
 }

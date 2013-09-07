@@ -1,9 +1,12 @@
 package de.dschm12s.data;
 
-import de.dschm12s.model.CharacterList;
+import java.util.ArrayList;
 
+import de.dschm12s.model.CharacterList;
+import de.dschm12s.model.Character;
 public interface DataPersistenceStrategy {
 
 	
-	CharacterList[] getCharactersList();
+	
+	public ArrayList<Character> getCharactersList();
 }
